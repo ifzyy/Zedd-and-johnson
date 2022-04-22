@@ -1,0 +1,144 @@
+*{
+    
+}
+body{
+    background-color: #eee;
+    font-family: 'Lato', sans-serif
+}
+.header{
+    display: flex;
+    padding-top: 25px;
+    background-color: #eee;
+    
+}
+.headerlink{
+    padding-left: 500px;
+    display: flex;
+    gap: 150px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.original{
+    font-size: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+img{
+    width: 400px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+    
+}
+.hero > h2 {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+  }
+
+
+.placeholder{
+    color: gray;
+    background-color: white;
+    border: 1px solid black;
+    max-width: 275px;
+    text-align: left;
+    width: 100%;
+    padding: 5px;
+}
+.container{
+    max-width: 1000px;
+         width: 100%;
+        margin: 0 auto;
+    }
+.get{
+    width: 150px;
+       font-size: 20px;
+       font-weight: bold;
+        height: 30px ;
+        margin:15px 0;
+        border: 0;
+        background-color: #f1c40f;
+}
+.premium{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
+.contain{
+    display:flex;
+   padding-left: 20%;
+   gap: 10px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+
+    
+}
+.graybox{
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    height: 30px;
+    background-color: lightgray;
+}
+button{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+     height: 30px ;
+     border: 0;
+     background-color: #f1c40f;
+}
+li{
+    display: flex;
+}
+ol{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+a:hover{
+    color: black;
+}
+b{
+    font-size: 30px;
+}
+.footercontainer{
+    display: flex;
+    height: 100px;
+    width: 920px;
+    margin-top: 25px;
+    background-color: lightgrey;
+    margin-left: 20%;
+}
+.link{
+    display: flex;
+    gap: 20px;
+   padding-left: 700px;
+   padding-top: 50px;
+}
+.copy{
+    padding-left: 670px;
+    font-size: 14px;
+    color: rgb(109, 104, 104);
+}
